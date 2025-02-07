@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="styles.css">   <script src="script.js"></script>
+    
+</head>
+<body>
+    <h1><center>Sistema de Cadastro para uma loja de <br>E-commerce</center></h1>
+    <form id="cadastroForm">
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="endereco" required>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required>
+
+        <label for="cpfcnpj">CPF/CNPJ:</label>
+        <input type="text" id="cpfcnpj" name="cpfcnpj" required>
+
+        <label for="nascimento">Data de Nascimento:</label>
+        <input type="date" id="nascimento" name="nascimento" required>
+
+        <label for="genero">Gênero:</label>
+        <select id="genero" name="genero" required>
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outro">Outro</option>
+        </select>
+
+        <label for="nacionalidade">Nacionalidade:</label>
+        <input type="text" id="nacionalidade" name="nacionalidade" required>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <script src="script.js"></script>
+
+    
+    
+    
+</body>
+</html>
